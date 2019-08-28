@@ -50,7 +50,7 @@ annotate_variation.pl -regionanno -dbtype cytoBand -buildver hg38 example/ex1.av
 annotate_variation.pl -filter -dbtype exac03 -buildver hg38 example/ex1.avinput humandb/  
 ```
 
-### LOAD IN CONDA ENVIRONMANT AND RUN SCRIPTS  
+### load environment and run scripts 
 ```
 conda env create -n gatk4 -f condaenv_gatk.yaml
 source activate gatk4
